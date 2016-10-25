@@ -6,7 +6,13 @@ My tmux configuration
 $ sudo apt-get install tmux
 ```
 
-### Install configuration
+### Install dependency
+
+```bash
+$ sudo apt-get install xsel
+```
+
+### Configuration
 
 ```bash
 $ cd
@@ -15,7 +21,7 @@ $ git clone https://github.com/jarsonfang/tmux.git
 $ ln -s tmux/tmux.conf .tmux.conf
 ```
 
-add the following line to `~/.bash_aliases` file:
+add the following line to `~/.bash_aliases` file and then `source ~/.bash_aliases`:
 ```bash
 alias tmux='tmux -2'
 ```
