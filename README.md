@@ -15,10 +15,10 @@ $ sudo apt-get install xsel
 ### Configuration
 
 ```bash
-$ cd
+$ mkdir -p ~/etc && cd ~/etc
 $ rm .tmux.conf
-$ git clone https://github.com/jarsonfang/tmux.git
-$ ln -s tmux/tmux.conf .tmux.conf
+$ git clone https://github.com/ChinaFengliang/tmux.git
+$ ln -s ~/etc/tmux/tmux.conf .tmux.conf
 ```
 
 add the following line to `~/.bash_aliases` file and then `source ~/.bash_aliases`:
